@@ -1,0 +1,156 @@
+/*.nav-bar{
+    width: 100%;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    text-decoration: none;
+    font-size: 100px;
+}
+
+.option{
+    margin: 0;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }*/
+
+  body{
+    background-color: rgb(72, 104, 201);
+      margin: 0%;
+
+  }
+  .pixels-text{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    top: 30%;
+    left: 0;
+    right: 0;
+  }
+
+
+
+
+.container
+{
+    width: 95%;
+    min-height: 100px; /*Altura minima, evita que se corte con el hidden*/
+    overflow: hidden; /*Todo lo que sobrepasa a la figura se cortará */
+    background-color: #3ADAD5;
+    margin: 0 auto;
+
+    
+}
+.section
+{
+    float: left;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    color: #A19FED;
+    margin-left: 10px;
+
+}
+.section1
+{
+    width: 70%;
+    min-height: 300px;
+    overflow: hidden;
+    background-color: darksalmon;
+    color: black;
+    float: left;
+
+
+}
+.section2
+{
+    float: left;
+    width: 30%;
+    min-height: 300px;
+    overflow: hidden;
+    background-color: aliceblue;
+    color: black;
+    font-size: 30px;
+}
+.sectioncontainer
+{
+width: 100%;
+min-height: 100%;
+
+}
+
+
+/*Mobile*/
+  @media only screen and (max-width:1400px){
+      body{
+          background-color: cornflowerblue;
+      }
+      .pixels-text
+      {
+          color: pink;
+          font-size: 60px;
+          font-family: 'Franklin Gothic Medium';
+      }
+  }
+  @media only screen and (max-width:1000px){
+        body{
+            background-color:darkcyan ;
+        }
+        .pixels-text
+        {
+            color: purple;
+            font-size: 60px;
+            font-family: 'Arial Narrow';
+        }
+    }
+    @media only screen and (max-width:800px){
+        body{
+            background-color: teal;
+        }
+        .pixels-text
+        {
+            color: yellowgreen;
+            font-size: 60px;
+            font-family: 'Arial';
+        }
+    }
+        @media only screen and (max-width:600px){
+            body{
+                background-color: darkslategray;
+            }
+
+         .pixels-text
+        {
+            color: blueviolet;
+            font-size: 60px;
+            font-family: 'Courier New';
+        }
+        .section
+        {
+            float: none;
+            margin-left: 0px;
+        }
+       
+        
+        .section:hover{
+            background-color: black;
+            color: pink;
+        }
+        .section1
+        {
+            font-size: 30px;
+        }
+        
+}
